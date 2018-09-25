@@ -18,7 +18,10 @@ body {
   font-size: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: hsl(240,50%,40%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
 }
 
 .center {
@@ -38,11 +41,11 @@ body {
 }
 
 .box-1 {
-  background-color: gray;
-  top: 55%;
-  left: 55%;
+  background-color: hsl(240,50%,20%);
+  top: 60%;
+  left: 65%;
 }
 
 .box-2 {
-  background-color: darkgray;
+  background-color: hsl(240,50%,60%);
 }

@@ -18,6 +18,9 @@ body {
   font-size: 0;
   height: 100%;
   width: 100%;
+  opacity: 10%
+  background: url(../images/manatee.jpg);
+  
 }
 
 .center {
@@ -36,4 +39,6 @@ body {
   vertical-align: top;
   position: relative;
   background: url(../images/manatee.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
